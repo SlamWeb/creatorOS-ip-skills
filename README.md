@@ -33,6 +33,8 @@ creatorOS-ip-skills/
 
 ## 使用
 
+首轮样例：[8页完整生图Prompt](examples/timeout-retry/prompts.md) · [测试结果与接入发现](examples/timeout-retry/REPORT.md)。只验证Prompt交接，未生成图片。
+
 > 读取xiaobai/SKILL.md与角色参考图，按这份PageSpec逐页输出最终生图Prompt。保持原页序和技术含义，不生成图片。
 
 将每页Prompt与同一张角色图一起交给支持参考图的图像模型。写一个本地路径不等于图像模型实际收到图片；生产调用方需要附上资产。
